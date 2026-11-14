@@ -1,0 +1,20 @@
+*{box-sizing:border-box}
+body{margin:0;background:var(--abyss-deep);color:var(--ivory);font:1.05rem/1.6 var(--font-body)}
+h1,h2{font-family:var(--font-display);line-height:1.1;margin:0 0 .6rem}
+h1{font-size:clamp(2rem,6vw,3.4rem);max-width:16ch}
+main{max-width:1100px;margin:0 auto;padding:2rem 1.25rem 4rem}
+.brand{display:flex;align-items:center;gap:.75rem;font:800 1.3rem var(--font-display);margin-bottom:2rem}
+.brand img{width:48px;height:48px;border-radius:50%}
+.lede{color:var(--ink-muted);max-width:60ch}
+.grid{display:grid;gap:1.25rem;margin-top:2rem}
+@media(min-width:860px){.grid{grid-template-columns:1fr 1fr}}
+.panel{background:var(--abyss);border-radius:var(--radius-panel);padding:1.5rem}
+textarea{width:100%;min-height:12rem;border-radius:var(--radius-control);border:2px solid var(--teal);background:var(--abyss-deep);color:var(--ivory);padding:.9rem;font:inherit}
+button{background:var(--amber);color:var(--abyss-deep);border:0;border-radius:var(--radius-control);padding:.8rem 1.3rem;font:700 1rem var(--font-body);cursor:pointer;margin-top:1rem}
+button:disabled{opacity:.5;cursor:wait}
+button.ghost{background:transparent;color:var(--amber);border:2px solid var(--amber)}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+.flag{border-left:4px solid var(--coral);padding-left:.75rem;margin:.4rem 0}
+.gap{border-left:4px solid var(--amber);padding-left:.75rem;margin:.4rem 0}
+.badge{display:inline-block;background:var(--teal);border-radius:99px;padding:.15rem .8rem;font-size:.9rem}
+.note{color:var(--ink-muted);font-size:.9rem}
