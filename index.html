@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NeuroPath</title>
+  <link rel="icon" type="image/svg+xml" href="/neuropath-logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <div class="brand"><img src="/neuropath-logo.svg" alt="">NeuroPath</div>
+    <h1>Arrive at the surgeon's desk already understood.</h1>
+    <p class="lede">Describe the condition in your own words. NeuroPath removes personal details on your device, then prepares a brief that shows what is urgent and what records are still missing.</p>
+    <div class="grid">
+      <section class="panel">
+        <label for="statement"><h2>Your story</h2></label>
+        <textarea id="statement" placeholder="When it started, what you feel, medications, previous scans…"></textarea>
+        <button id="build">Build my brief</button>
+        <p class="note">Research prototype. Not medical advice. Use synthetic data only.</p>
+      </section>
+      <section class="panel" id="out" aria-live="polite"><p class="note">Your brief appears here.</p></section>
+    </div>
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
