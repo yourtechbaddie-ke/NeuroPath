@@ -1,0 +1,13 @@
+:root {
+  --abyss: #0B3C49;
+  --abyss-deep: #072A33;
+  --teal: #14808C;
+  --amber: #F5A524;
+  --ivory: #FFF6E5;
+  --coral: #FF6B5E;   /* critical red flags only */
+  --ink-muted: #A9C7CC;
+  --radius-panel: 18px;
+  --radius-control: 10px;
+  --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+}
